@@ -48,7 +48,12 @@ const Contacts = () => {
                 <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">
-                <form onSubmit={handleSubmit(onSubmit)}>
+                <form
+                    name="contact"
+                    method="post"
+                    onSubmit={handleSubmit(onSubmit)}
+                >
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="row">
                         <div className="col-md-6 col-xs-12">
                             {/* NAME INPUT */}

@@ -2,6 +2,7 @@ import React from 'react';
 import first from '../images/first-project.png';
 import second from '../images/second-project.png';
 import third from '../images/portfolio-project.png';
+import fourth from '../images/fourth-project.png';
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
@@ -19,7 +20,7 @@ const Pofrfolio = () => {
                     src={first}
                     alt="first project..."
                 />
-                <p>
+                <p className="popup-title">
                     A full-stack web application with vegetarian recipes.
                     <br />
                     React.js, JavaScript, Algolia Search, HTML, CSS, Bootstrap,
@@ -41,7 +42,7 @@ const Pofrfolio = () => {
     const popupboxConfigNetflix = {
         titleBar: {
             enable: true,
-            text: 'firstproject.',
+            text: 'React project.',
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -56,7 +57,7 @@ const Pofrfolio = () => {
                     src={second}
                     alt="second project..."
                 />
-                <p>
+                <p className="popup-title">
                     A full-stack web game, Pokie-fight.
                     <br />
                     HTML, CSS, Bootstrap, React.js, JavaScript, Express.js /
@@ -91,7 +92,7 @@ const Pofrfolio = () => {
     const popupboxConfigCityGuide = {
         titleBar: {
             enable: true,
-            text: 'second project.',
+            text: 'React project.',
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -106,7 +107,7 @@ const Pofrfolio = () => {
                     src={third}
                     alt="Portfolio Project..."
                 />
-                <p>
+                <p className="popup-title">
                     A front-end portfolio project.
                     <br />
                     HTML, CSS, Bootstrap, React.js, JavaScript.
@@ -130,7 +131,57 @@ const Pofrfolio = () => {
     const popupboxConfigPortfolio = {
         titleBar: {
             enable: true,
-            text: 'Poftfolio React project.',
+            text: 'React project.',
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+    };
+
+    // TravelBudget Mobile App
+    const openPopupboxTravelBudget = () => {
+        const content = (
+            <>
+                <img
+                    className="portfolio-image-popupbox"
+                    src={fourth}
+                    alt="fourth project..."
+                />
+                <p className="popup-title">
+                    A react/cordova mobile App, OnTrip.
+                    <br />
+                    HTML, CSS, Material UI, React.js, Cordova, Xcode, Chart.js,
+                    Foursquare API.
+                </p>
+                <a
+                    className="hyper-link"
+                    onClick={() =>
+                        window.open(
+                            'https://github.com/lidiyacheb/tripbudget',
+                            '_blank'
+                        )
+                    }
+                ></a>
+                <br />
+                <b>GitHub:</b>{' '}
+                <a
+                    className="hyper-link"
+                    onClick={() =>
+                        window.open(
+                            'https://github.com/lidiyacheb/tripbudget',
+                            '_blank'
+                        )
+                    }
+                ></a>
+                https://github.com/lidiyacheb/tripbudget
+            </>
+        );
+        PopupboxManager.open({ content });
+    };
+
+    const popupboxConfigTravelBudget = {
+        titleBar: {
+            enable: true,
+            text: 'React project',
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -188,11 +239,29 @@ const Pofrfolio = () => {
                             icon={faSearchPlus}
                         />
                     </div>
+                    {/* - */}
+                    <div
+                        className="portfolio-image-box"
+                        onClick={openPopupboxTravelBudget}
+                    >
+                        <img
+                            className="portfolio-image"
+                            src={fourth}
+                            alt="fourth project..."
+                        />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon
+                            className="portfolio-icon"
+                            icon={faSearchPlus}
+                        />
+                    </div>
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigNetflix} />
             <PopupboxContainer {...popupboxConfigCityGuide} />
+
             <PopupboxContainer {...popupboxConfigPortfolio} />
+            <PopupboxContainer {...popupboxConfigTravelBudget} />
         </div>
     );
 };

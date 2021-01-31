@@ -97,10 +97,14 @@ nav ul li {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.social-networks {
+    padding-left: 0;
+}
+
 .social-networks a {
     display: block;
     position: relative;
-    margin: 0 7px;
+    margin: 0;
     width: 45px;
     height: 45px;
     line-height: 0;
@@ -379,7 +383,7 @@ nav ul li {
 
 .portfolio-wrapper {
     background: var(--primary-light-grey);
-    padding: 3rem 0;
+    padding-bottom: 3rem;
 }
 
 .portfolio-wrapper h1 {
@@ -387,10 +391,10 @@ nav ul li {
 }
 
 .portfolio-image {
-    width: 15rem;
+    width: 27rem;
     border: 1px solid var(--primary-orange);
     padding: 0 0.5rem;
-    height: 10rem;
+    height: 18rem;
 }
 
 .portfolio-image-box {
@@ -402,8 +406,8 @@ nav ul li {
     position: absolute;
     opacity: 0;
     background: var(--primary-black);
-    width: 15rem;
-    height: 10rem;
+    width: 27rem;
+    height: 18rem;
     top: 0;
     border: 1px solid var(--primary-red);
     cursor: pointer;
@@ -417,8 +421,8 @@ nav ul li {
 .portfolio-icon {
     position: absolute;
     opacity: 0;
-    margin-left: -8rem;
-    margin-top: 3.6rem;
+    margin-left: -14rem;
+    margin-top: 7.6rem;
     color: var(--primary-orange);
     font-size: 1.5rem;
 }
@@ -427,6 +431,12 @@ nav ul li {
     opacity: 70%;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+
+.popup-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .popupbox-wrapper {

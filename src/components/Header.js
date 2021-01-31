@@ -30,7 +30,7 @@ const Header = () => {
                                     icon={githubIcon}
                                     style={{
                                         fontSize: '200%',
-                                        margin: '9% 5% 0 5%',
+                                        margin: '9% 5% 0 0',
                                     }}
                                 />
                             </a>
