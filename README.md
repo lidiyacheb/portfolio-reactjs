@@ -1,3 +1,9 @@
+# A front-end portfolio project.
+
+Built using: HTML, CSS, Bootstrap, React.js, JavaScript.
+
+Netlify: [https://lidia-chebotarova.netlify.app]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
