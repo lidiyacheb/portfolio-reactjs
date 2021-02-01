@@ -51,10 +51,12 @@ const Contacts = () => {
                 <form
                     name="contact"
                     method="post"
+                    action="/contact"
+                    data-netlify="true"
                     onSubmit={handleSubmit(onSubmit)}
                 >
-                    <input type="hidden" name="form-name" value="contact" />
                     <div className="row">
+                        <input type="hidden" name="form-name" value="contact" />
                         <div className="col-md-6 col-xs-12">
                             {/* NAME INPUT */}
                             <div className="text-center">
