@@ -2,7 +2,7 @@
 
 Built using: HTML, CSS, Bootstrap, React.js, JavaScript.
 
-Netlify: [https://lidia-chebotarova.netlify.app]
+<!-- Netlify: [https://lidia-chebotarova.netlify.app] -->
 
 # Getting Started with Create React App
 
