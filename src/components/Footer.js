@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
-                            <p>Copyright © Lidia Chebotarova</p>
+                            <p>Copyright © Lidia Saulite</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
@@ -40,7 +40,7 @@ const Footer = () => {
                         <div className="d-flex justify-content-center">
                             <LinkedinShareButton
                                 url={
-                                    'https://www.linkedin.com/in/lidia-chebotarova/'
+                                    'https://www.linkedin.com/in/lidia-saulite/'
                                 }
                                 quote={'Frontend Developer'}
                                 hashtag="#javascript"

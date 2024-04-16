@@ -34,7 +34,7 @@ const Services = () => {
                             </div>
 
                             <h3>Front-end</h3>
-                            <p>Javascript, Typescript, React</p>
+                            <p>Javascript, React, Cypress</p>
                         </div>
                     </div>
                     {/* - */}

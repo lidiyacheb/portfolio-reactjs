@@ -50,13 +50,13 @@ const Contacts = () => {
             <div className="container">
                 <form
                     name="contact"
-                    method="post"
+                    method="POST"
                     action="/contact"
                     data-netlify="true"
                     onSubmit={handleSubmit(onSubmit)}
                 >
+                    <input type="hidden" name="contact" value="contact" />
                     <div className="row">
-                        <input type="hidden" name="form-name" value="contact" />
                         <div className="col-md-6 col-xs-12">
                             {/* NAME INPUT */}
                             <div className="text-center">
@@ -141,7 +141,7 @@ const Contacts = () => {
                                     type="text"
                                     className="form-control"
                                     placeholder="Please type a message..."
-                                    name="description"
+                                    name="message"
                                     ref={register({
                                         required: 'Please type a message...',
                                     })}
@@ -155,6 +155,7 @@ const Contacts = () => {
                             <button
                                 className="btn-main-offer contact-btn"
                                 type="submit"
+                                value="Submit"
                             >
                                 contact me
                             </button>

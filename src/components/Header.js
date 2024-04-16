@@ -11,10 +11,10 @@ const Header = () => {
         <div id="home" className="header-wraper">
             <div className="main-info">
                 <canvas></canvas>
-                <h1>HI! I'm Lidia Chebotarova</h1>
+                <h1>HI! I'm Lidia Saulite</h1>
                 <Typed
                     className="typed-text"
-                    strings={['Front-end Developer', 'Web Designer']}
+                    strings={['Front-end Developer', 'Web Designer', 'Webmaster']}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
@@ -37,7 +37,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a
-                                href="https://www.linkedin.com/in/lidia-chebotarova/"
+                                href="https://www.linkedin.com/in/lidia-saulite/"
                                 class="icon-linkedin"
                             >
                                 <Icon

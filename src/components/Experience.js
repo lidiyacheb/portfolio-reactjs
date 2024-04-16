@@ -10,16 +10,46 @@ const Experience = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
+                        <h3>2021-2023</h3>
+                        <p>
+                            <b>Webmaster / Webshop-Manager.</b>
+                            <br />
+                            Construction Project.
+                            <br />
+                            Maintaining and managing the basic infrastructure of the Web/CMS (WordPress).
+                            Creating UI design themes, editing images (Adobe Creative Cloud).
+                            Development web pages.
+                            SEO auditing and web tracking.
+                        </p>
+                    </div>
+                </div>
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>2020-2021</h3>
+                        <p>
+                            <b>Web&App Developer Trainee.</b>
+                            <br />
+                            WBS Coding School.
+                            <br />
+                            HTML5, CSS3, JS, React (Hooks, Context);
+                            Node.js, REST APIs, Databases (SQL/NoSQL);
+                            Console, Bash, GitHub;
+                        </p>
+                    </div>
+                </div>
+                <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
                         <h3>2018-2020</h3>
                         <p>
-                            Web-Designer.
+                            <b>Frontend Developer.</b>
                             <br />
                             Lotto24 AG.
                             <br />
                             Create site layouts/user interfaces by using
-                            standard HTML / CSS / SASS, design sample pages
-                            including colours and fonts using Photoshop, Figma
-                            and Sketch.
+                            standard HTML / CSS / SCSS, JS, JQuery, Angular, and design sample pages
+                            including colours and fonts using Figma.
                         </p>
                     </div>
                 </div>
@@ -29,7 +59,7 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2017-2018</h3>
                         <p>
-                            Web-Designer.
+                            <b>Web-Designer.</b>
                             <br />
                             Freelancer.
                             <br />
@@ -45,7 +75,7 @@ const Experience = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2010-2016</h3>
-                        Web Content Manager.
+                        <b>Web Content Manager.</b>
                         <br />
                         Sotmarket E-commerce.
                         <br />

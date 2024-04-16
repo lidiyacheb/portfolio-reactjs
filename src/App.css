@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/d3-euronism');
 
 :root {
     --primary-white: #ffffff;
@@ -7,8 +8,8 @@
     --primary-dark-grey: #666666;
     --primary-orange: #f9ab00;
     --primary-dark: rgb(52, 58, 64);
-    --primary-red: #ef4035;
-    --primary-hover-red: #f33501;
+    --primary-red: #d3443d;
+    --primary-hover-red: #d3443d;
     --primary-black: #000000;
     --primary-transparent-black: rgba(0, 0, 0, 0.7);
     --primary-green: green;
@@ -16,6 +17,7 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif !important;
+
 }
 
 nav {
@@ -67,7 +69,7 @@ nav ul li {
 
 .header-wraper {
     position: relative;
-    background: url(wall-and-laptop-background.jpg) no-repeat;
+    background: url(webdev-bg-screen.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -88,6 +90,8 @@ nav ul li {
 }
 
 .main-info h1 {
+    font-family: 'D3 Euronism', sans-serif;
+    font-size: 3.5rem;
     color: var(--primary-orange);
     text-transform: uppercase;
 }
@@ -95,6 +99,11 @@ nav ul li {
 .navbarMain {
     height: 5rem;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tiped-text {
+    font-family: 'D3 Euronism', sans-serif;
+    font-size: 1.5rem;
 }
 
 .social-networks {
